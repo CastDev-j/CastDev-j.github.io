@@ -2,7 +2,7 @@ import type { Site, Page, Links, Socials } from "@types"
 
 // Global
 export const SITE: Site = {
-  TITLE: "CastDev-J | Frontend Developer",
+  TITLE: "CastDev-J | Front-Developer",
   DESCRIPTION: "Welcome to my personal website. I am a frontend developer with a passion for web development and design.",
   AUTHOR: "CastDev-J",
 }
