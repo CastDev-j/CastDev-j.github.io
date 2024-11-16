@@ -20,7 +20,7 @@ export async function GET(context: Context) {
   return rss({
     title: SITE.TITLE,
     description: SITE.DESCRIPTION,
-    site: context.site,
+    site: 'https://castdev-j.pages.dev/',
     items: items.map((item) => ({
       title: item.data.title,
       description: item.data.summary,
