@@ -12,7 +12,7 @@ demoUrl: https://castdev-j.github.io/idea-ejercicio/
 repoUrl: https://github.com/CastDev-j/idea-ejercicio
 ---
 
-About the project  
+### About the project  
 This project is a login form with a simple design and a pastel color palette. It includes basic field validation and is developed with HTML, CSS, and JavaScript.
 
 ### Features  

@@ -12,7 +12,7 @@ demoUrl: https://castdev-j.github.io/Aplication-Expenses-Chart-Component-Main/
 repoUrl: https://github.com/CastDev-j/Aplication-Expenses-Chart-Component-Main
 ---
 
-About the project  
+### About the project  
 This application displays a bar chart with weekly expenses. The design is responsive, and the bars update dynamically based on the data. The highest bar is highlighted in cyan, while the others appear in red.
 
 ### Features  

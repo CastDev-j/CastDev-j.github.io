@@ -14,7 +14,7 @@ demoUrl: https://calculadora-arboles.pages.dev/
 repoUrl: https://github.com/CastDev-j/calculadora-arboles
 ---
 
-About the project  
+### About the project  
 This project is a program designed to determine compensation for tree removal. Its goal is to provide an accurate assessment of the affected tree or trees and calculate the number of trees that need to be compensated or, alternatively, the monetary amount required to fulfill such compensation. In this way, the program promotes fair and sustainable compensation, seeking to balance environmental needs with human actions.  
 
 ### Main Features  

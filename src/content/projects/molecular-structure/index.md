@@ -13,7 +13,7 @@ demoUrl: https://castdev-j.github.io/Aplicacion-Estructura-Molecular-Quimica/
 repoUrl: https://github.com/CastDev-j/Aplicacion-Estructura-Molecular-Quimica
 ---
 
-About the project  
+### About the project  
 This interactive page allows you to visualize the molecular geometry of chemical compounds. It uses 3Dmol to represent molecular models in 3D, offering an interactive visual experience.
 
 ### Features  

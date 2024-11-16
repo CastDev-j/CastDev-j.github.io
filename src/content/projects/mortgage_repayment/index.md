@@ -12,7 +12,7 @@ demoUrl: https://castdev-j.github.io/mortgage-repayment-calculator-main/
 repoUrl: https://github.com/CastDev-j/mortgage-repayment-calculator-main
 ---
 
-About the project  
+### About the project  
 This calculator allows you to estimate monthly mortgage payments. It is designed to be simple and accessible, with a clean and easy-to-customize design. It was developed using HTML, CSS, and JavaScript.
 
 ### Features  

@@ -12,7 +12,7 @@ demoUrl: https://castdev-j.github.io/Aplicacion-Calculadora-Hexadecimal/
 repoUrl: https://github.com/CastDev-j/Aplicacion-Calculadora-Hexadecimal
 ---
 
-About the project  
+### About the project  
 This calculator allows you to perform basic mathematical operations using hexadecimal numbers. It includes a data validator to ensure that the entered values are valid in hexadecimal format.
 
 ### Features  

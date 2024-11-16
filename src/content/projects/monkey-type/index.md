@@ -12,7 +12,7 @@ demoUrl: https://castdev-j.github.io/mokeytype/
 repoUrl: https://github.com/CastDev-j/mokeytype
 ---
 
-About the project  
+### About the project  
 MokeyType is a clone of MonkeyType, a popular tool for practicing typing speed and accuracy. This project is developed using essential web technologies such as HTML, CSS, and Javascript, offering a similar experience to its original counterpart but with the simplicity of a custom design.
 
 ### Main Features  

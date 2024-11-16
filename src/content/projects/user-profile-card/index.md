@@ -11,7 +11,7 @@ demoUrl: https://castdev-j.github.io/Aplication-Social-Links-Profile-Main/
 repoUrl: https://github.com/CastDev-j/Aplication-Social-Links-Profile-Main
 ---
 
-About the project  
+### About the project  
 This project is a user profile exercise that displays a card with basic information about a user. The design is modern and minimalist, using HTML and CSS.
 
 ### Features  

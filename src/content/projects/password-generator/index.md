@@ -12,7 +12,7 @@ demoUrl: https://castdev-j.github.io/Aplicacion-Generador-Claves/
 repoUrl: https://github.com/CastDev-j/Aplicacion-Generador-Claves
 ---
 
-About the project  
+### About the project  
 This page allows you to generate secure passwords easily. It offers an attractive interface to create random passwords, ensuring their complexity and security.
 
 ### Features  
