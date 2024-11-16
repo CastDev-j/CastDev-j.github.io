@@ -25,7 +25,7 @@ export async function GET(context: Context) {
       title: item.data.title,
       description: item.data.summary,
       pubDate: item.data.date,
-      link: `/${item.slug}`,
+      link: `https://castdev-j.pages.dev/${item.slug}`,
     })),
   })
 }
