@@ -23,8 +23,8 @@ export async function GET(context: Context) {
       description: item.data.summary,
       pubDate: item.data.date,
       link: item.slug.startsWith("blog")
-        ? `/blog/${item.slug}/`
-        : `/projects/${item.slug}/`,
+        ? `https://castdev-j.pages.dev//blog/${item.slug}/`
+        : `https://castdev-j.pages.dev//projects/${item.slug}/`,
     })),
   })
 }
