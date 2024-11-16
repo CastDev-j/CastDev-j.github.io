@@ -6,7 +6,7 @@ draft: false
 tags:
 - HTML
 - CSS
-- Javascript
+- JavaScript
 - Component
 demoUrl: https://castdev-j.github.io/mortgage-repayment-calculator-main/
 repoUrl: https://github.com/CastDev-j/mortgage-repayment-calculator-main

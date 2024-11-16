@@ -6,7 +6,7 @@ draft: false
 tags:
 - HTML
 - CSS
-- Javascript
+- JavaScript
 - Component
 demoUrl: https://castdev-j.github.io/idea-ejercicio/
 repoUrl: https://github.com/CastDev-j/idea-ejercicio

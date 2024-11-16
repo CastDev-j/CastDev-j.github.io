@@ -6,7 +6,7 @@ draft: false
 tags:
 - HTML
 - CSS
-- Javascript
+- JavaScript
 - Component
 demoUrl: https://castdev-j.github.io/Aplication-Expenses-Chart-Component-Main/
 repoUrl: https://github.com/CastDev-j/Aplication-Expenses-Chart-Component-Main

@@ -6,7 +6,7 @@ draft: false
 tags:
 - HTML
 - CSS
-- Javascript
+- JavaScript
 - Component
 demoUrl: https://castdev-j.github.io/Aplicacion-Contact-Form/
 repoUrl: https://github.com/CastDev-j/Aplicacion-Contact-Form

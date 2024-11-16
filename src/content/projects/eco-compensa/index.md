@@ -5,7 +5,7 @@ date: "Nov 13 2024"
 draft: false
 tags:
 - Astro
-- Javascript
+- JavaScript
 - CSS
 - Tailwind
 - HTML
