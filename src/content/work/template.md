@@ -1,11 +1,12 @@
 ---
-company: "Company Name"
-role: "Role"
-dateStart: "01/01/2024"
-dateEnd: "11/27/2026"
+company: "Web Development Student"
+role: "Front-End Junior Developer"
+dateStart: "01/01/2022"
+dateEnd: "Present"
 ---
 
-Voluptatem est quaerat voluptas praesentium ipsa dolorem dignissimos nulla ratione distinctio quae maiores eligendi nostrum? Quibusdam, debitis voluptatum, lorem ipsum dolor. Sit amet consectetur adipisicing elit. Iure illo neque tempora.
+I am currently a web development student with a focus on **front-end**, continuously learning new programming concepts and applying them to personal projects and exercises. While my formal experience in companies is limited, I am dedicated to my professional growth, working on independent projects to improve my skills.
 
-- Sit amet consectetur adipisicing elit. Iure illo neque tempora.
-- Quibusdam, debitis voluptatum, lorem ipsum
+- **Web interface development**: Creating web pages and applications using HTML, CSS, TypeScript, Tailwind CSS, Git, and GitHub.
+- **Continuous learning**: Always seeking new challenges and opportunities to deepen my knowledge of front-end technologies.
+- **Personal projects**: Worked on open-source projects and web applications to enhance my technical skills.
