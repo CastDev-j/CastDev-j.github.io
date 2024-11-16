@@ -20,12 +20,12 @@ export async function GET(context: Context) {
   return rss({
     title: SITE.TITLE,
     description: SITE.DESCRIPTION,
-    site: 'https://castdev-j.pages.dev/',
+    site: 'https://castdev-j.pages.dev',
     items: items.map((item) => ({
       title: item.data.title,
       description: item.data.summary,
       pubDate: item.data.date,
-      link: `https://castdev-j.pages.dev/${item.slug}/`,
+      link: `/${item.slug}`,
     })),
   })
 }
