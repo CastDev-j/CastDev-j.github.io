@@ -38,9 +38,30 @@ const stack = [
     icon: "tailwind", 
     href: "https://tailwindcss.com" 
   },
+  { 
+    text: "HTML", 
+    icon: "html", 
+    href: "https://developer.mozilla.org/en-US/docs/Web/HTML" 
+  },
+  { 
+    text: "CSS",
+    icon: "css", 
+    href: "https://developer.mozilla.org/en-US/docs/Web/CSS" 
+  },
+  { 
+    text: "Git",
+    icon: "git", 
+    href: "https://git-scm.com"
+  },
+  { 
+    text: "Github",
+    icon: "github", 
+    href: "https://github.com" 
+  }
+
 ]
 ---
-
+ 
 <PageLayout title="Home" description={SITE.DESCRIPTION}>
 
   <!-- Light Mode: Particles -->
@@ -115,6 +136,47 @@ const stack = [
         </article>
       </section>
 
+            <!-- Project Preview Section -->
+            <section class="animate">
+              <div class="space-y-4">
+                <div class="flex justify-between">
+                  <p class="font-semibold text-black dark:text-white">
+                    Recent projects
+                  </p>
+                  <a href="/projects" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
+                    <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
+                      All projects
+                    </span>
+                  </a>
+                </div>
+                <ul class="space-y-4">
+                  {projects.map((project : any) => (
+                    <li>
+                      <ArrowCard entry={project} />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </section>
+
+                  <!-- Tech Stack Section -->
+      <section class="animate">
+        <div class="space-y-4">
+          <p class="font-semibold text-black dark:text-white">
+            Tech Stack
+          </p>
+          <div class="flex flex-wrap items-center gap-2 mt-5">
+            {stack.map(item => (
+              <StackCard 
+                text={item.text}
+                icon={item.icon}
+                href={item.href}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
       <!-- Blog Preview Section -->
       <section class="animate">
         <div class="space-y-4">
@@ -138,46 +200,7 @@ const stack = [
         </div>
       </section>
 
-      <!-- Tech Stack Section -->
-      <section class="animate">
-        <div class="space-y-4">
-          <p class="font-semibold text-black dark:text-white">
-            Website build with
-          </p>
-          <div class="flex flex-wrap items-center gap-2 mt-5">
-            {stack.map(item => (
-              <StackCard 
-                text={item.text}
-                icon={item.icon}
-                href={item.href}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
 
-      <!-- Project Preview Section -->
-      <section class="animate">
-        <div class="space-y-4">
-          <div class="flex justify-between">
-            <p class="font-semibold text-black dark:text-white">
-              Recent projects
-            </p>
-            <a href="/projects" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
-              <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
-                All projects
-              </span>
-            </a>
-          </div>
-          <ul class="space-y-4">
-            {projects.map((project : any) => (
-              <li>
-                <ArrowCard entry={project} />
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
 
       <!-- Contact Section -->
       <section class="animate">
