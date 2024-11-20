@@ -1,6 +1,6 @@
 ---
-title: "Autenticación de Usuarios con Google y Validación"
-summary: "Aplicación de autenticación de usuarios utilizando Firebase, Google Sign-In y validación de formularios con diseño en colores pastel."
+title: "User Authentication with Google, GitHub, and Custom Users"
+summary: "User authentication application using Firebase, Google Sign-In, GitHub Sign-In, and custom user accounts with route protection and a pastel color design."
 date: "Nov 19 2024"
 draft: false
 tags:
@@ -11,45 +11,40 @@ tags:
   - Tailwind
   - Firebase
   - TypeScript
-  - Google Sign-In
 demoUrl: https://cast-dev-authapp.netlify.app/login
 repoUrl: https://github.com/CastDev-j/06-auth
 ---
 
-### Sobre el proyecto  
-Este proyecto es una aplicación de autenticación de usuarios que permite a los usuarios registrarse e iniciar sesión utilizando sus cuentas de Google. Utiliza **Firebase** para la autenticación, **Google Sign-In** para el inicio de sesión con Google, y un formulario de inicio de sesión con validación básica. El diseño de la interfaz tiene una paleta de colores pastel y está construido con **HTML**, **CSS**, **Tailwind CSS** y **TypeScript**.
+### About the Project  
+This project is a user authentication application that allows users to register and log in using their Google, GitHub accounts, or custom user accounts. It uses **Firebase** for authentication, **Google Sign-In** and **GitHub Sign-In** for third-party logins, and a login form with basic validation. The interface design features a pastel color palette and is built with **HTML**, **CSS**, **Tailwind CSS**, and **TypeScript**.
 
-### Características principales  
-- **Autenticación con Google**: Los usuarios pueden iniciar sesión rápidamente utilizando sus cuentas de Google a través de **Firebase Authentication**.  
-- **Validación de formularios**: El formulario de inicio de sesión incluye validación básica para asegurarse de que los campos sean completados correctamente antes de enviarlos.  
-- **Diseño en colores pastel**: La interfaz visual es suave y moderna, utilizando colores pastel agradables a la vista.  
-- **Desarrollado con tecnologías modernas**: Utiliza **HTML**, **CSS**, **JavaScript**, **Tailwind CSS** y **TypeScript** para una experiencia de usuario fluida y optimizada.  
-- **Soporte para Firebase**: La autenticación de usuarios y la gestión de sesiones se realiza a través de **Firebase**, garantizando seguridad y escalabilidad.
+### Key Features  
+- **Google Authentication**: Users can quickly log in using their Google accounts through **Firebase Authentication**.  
+- **GitHub Authentication**: Users can also log in using their GitHub accounts.  
+- **Custom User Accounts**: Supports registration and login for custom user accounts.  
+- **Route Protection**: Ensures that only authenticated users can access certain routes.  
+- **Form Validation**: The login form includes basic validation to ensure fields are correctly filled before submission.  
+- **Pastel Color Design**: The visual interface is soft and modern, using eye-pleasing pastel colors.  
+- **Built with Modern Technologies**: Utilizes **HTML**, **CSS**, **JavaScript**, **Tailwind CSS**, and **TypeScript** for a smooth and optimized user experience.  
+- **Firebase Support**: User authentication and session management are handled through **Firebase**, ensuring security and scalability.
 
-### Explora el proyecto
-- Puedes ver el **demo en línea** haciendo clic en el siguiente enlace:  
-  [Demo de la aplicación](https://cast-dev-authapp.netlify.app/login)
-  
-- Si deseas ver el código fuente o contribuir, visita el repositorio en GitHub:  
-  [Repositorio en GitHub](https://github.com/CastDev-j/06-auth)
+### How to Use?
+1. **Clone the repository** or download the files.
+2. **Install the necessary dependencies** by running `npm install` in the terminal.
+3. **Configure Firebase**: Make sure you have a Firebase account and configure Google and GitHub authentication in the Firebase console.
+4. **Start the local server**: Use `npm run dev` to start the application on your local machine.
+5. **Access the application**: Open your browser and go to `http://localhost:3000/login` to test the login and authentication.
 
-### ¿Cómo utilizar?
-1. **Clona el repositorio** o descarga los archivos.
-2. **Instala las dependencias** necesarias ejecutando `npm install` en la terminal.
-3. **Configura Firebase**: Asegúrate de tener una cuenta en Firebase y configurar la autenticación con Google en el panel de Firebase.
-4. **Inicia el servidor local**: Usa `npm run dev` para iniciar la aplicación en tu máquina local.
-5. **Accede a la aplicación**: Abre el navegador y accede a `http://localhost:3000/login` para probar el inicio de sesión y la autenticación.
+### Technologies Used
+- **HTML**: Basic structure of the form and page.
+- **CSS**: Custom styles for the forms and interface.
+- **Tailwind CSS**: Design framework for a modern and responsive interface.
+- **Firebase**: User authentication and session management.
+- **JavaScript** and **TypeScript**: Validation logic and interactive functionality.
 
-### Tecnologías utilizadas
-- **HTML**: Estructura básica del formulario y la página.
-- **CSS**: Estilos personalizados para los formularios y la interfaz.
-- **Tailwind CSS**: Framework de diseño para una interfaz moderna y responsiva.
-- **Firebase**: Autenticación de usuarios y gestión de sesiones.
-- **JavaScript** y **TypeScript**: Lógica de validación y funcionalidad interactiva.
-
-### Contribuciones
-Las contribuciones son bienvenidas. Si tienes alguna idea para mejorar la aplicación o encuentras algún error, por favor abre un **issue** o envía un **pull request** en el repositorio de GitHub.
+### Contributions
+Contributions are welcome. If you have any ideas to improve the application or find any bugs, please open an **issue** or send a **pull request** in the GitHub repository.
 
 ---
 
-¡Gracias por explorar este proyecto! Si tienes alguna pregunta o sugerencia, no dudes en abrir un **issue** o contactar directamente.
+Thank you for exploring this project! If you have any questions or suggestions, feel free to open an **issue** or contact directly.
