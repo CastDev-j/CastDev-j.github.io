@@ -1,30 +1,68 @@
 ---
-import { getCollection } from "astro:content"
-import PageLayout from "@layouts/PageLayout.astro"
-import TopLayout from "@layouts/TopLayout.astro"
-import BottomLayout from "@layouts/BottomLayout.astro"
-import { WORK } from "@consts"
+import { getCollection } from "astro:content";
+import PageLayout from "@layouts/PageLayout.astro";
+import TopLayout from "@layouts/TopLayout.astro";
+import BottomLayout from "@layouts/BottomLayout.astro";
+import { WORK } from "@consts";
+import CertificateComponent from "@components/CertificateComponent.astro";
 
-const collection = await getCollection("work")
+const collection = await getCollection("work");
 
-collection.sort((a, b) => new Date(b.data.dateStart).getTime() - new Date(a.data.dateStart).getTime())
+// TODO: Move this to a separate file
+const Certificates = [
+  {
+    title: "GIT+GitHub: Todo un sistema de control de versiones de cero",
+    url: "https://cursos.devtalles.com/certificates/x62pu4pedm",
+    logo: "https://import.cdn.thinkific.com/643563%2Fcustom_site_themes%2Fid%2FD0U6aCTrQPmlGzQXLZhe_DEVTALLES-LOGO-VARIANTES.png",
+  },
+  {
+    title: "TypeScript: Tu completa guía y manual de mano.",
+    url: "https://cursos.devtalles.com/certificates/oc11zdv3hi",
+    logo: "https://import.cdn.thinkific.com/643563%2Fcustom_site_themes%2Fid%2FD0U6aCTrQPmlGzQXLZhe_DEVTALLES-LOGO-VARIANTES.png",
+  },
+  {
+    title: "Principios SOLID y Clean Code",
+    url: "https://cursos.devtalles.com/certificates/seycnl25tc",
+    logo: "https://import.cdn.thinkific.com/643563%2Fcustom_site_themes%2Fid%2FD0U6aCTrQPmlGzQXLZhe_DEVTALLES-LOGO-VARIANTES.png",
+  },
+  {
+    title: "JavaScript Moderno: Guía para dominar el lenguaje",
+    url: "https://cursos.devtalles.com/certificates/5ega81zny2",
+    logo: "https://import.cdn.thinkific.com/643563%2Fcustom_site_themes%2Fid%2FD0U6aCTrQPmlGzQXLZhe_DEVTALLES-LOGO-VARIANTES.png",
+  },
+  {
+    title: "Programación para principiantes - Primeros pasos",
+    url: "https://cursos.devtalles.com/certificates/vjzsgmzrlq",
+    logo: "https://import.cdn.thinkific.com/643563%2Fcustom_site_themes%2Fid%2FD0U6aCTrQPmlGzQXLZhe_DEVTALLES-LOGO-VARIANTES.png",
+  },
+  {
+    title: "Visual Studio Code: Mejora tu velocidad para codificar",
+    url: "https://cursos.devtalles.com/certificates/jgdygum41r",
+    logo: "https://import.cdn.thinkific.com/643563%2Fcustom_site_themes%2Fid%2FD0U6aCTrQPmlGzQXLZhe_DEVTALLES-LOGO-VARIANTES.png",
+  },
+];
+
+collection.sort(
+  (a, b) =>
+    new Date(b.data.dateStart).getTime() - new Date(a.data.dateStart).getTime()
+);
 
 const work = await Promise.all(
   collection.map(async (item) => {
-    const { Content } = await item.render()
-    return { ...item, Content }
+    const { Content } = await item.render();
+    return { ...item, Content };
   })
-)
+);
 
 function formatWorkDate(input: Date | string) {
-  if (typeof input === "string") return input
+  if (typeof input === "string") return input;
 
   const month = input.toLocaleDateString("en-US", {
     month: "short",
-  })
+  });
 
-  const year = new Date(input).getFullYear()
-  return `${month} ${year}`
+  const year = new Date(input).getFullYear();
+  return `${month} ${year}`;
 }
 ---
 
@@ -36,24 +74,46 @@ function formatWorkDate(input: Date | string) {
   </TopLayout>
   <BottomLayout>
     <ul>
-      { 
+      {
         work.map((entry) => (
           <li class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none">
             <div class="text-sm uppercase mb-4">
-              {formatWorkDate(entry.data.dateStart)} - {formatWorkDate(entry.data.dateEnd)}
+              {formatWorkDate(entry.data.dateStart)} -{" "}
+              {formatWorkDate(entry.data.dateEnd)}
             </div>
             <div class="text-black dark:text-white font-semibold">
               {entry.data.company}
             </div>
-            <div class="text-sm font-semibold">
-              {entry.data.role}
-            </div>
+            <div class="text-sm font-semibold">{entry.data.role}</div>
             <article class="prose dark:prose-invert">
               <entry.Content />
             </article>
           </li>
         ))
       }
+
+      <li
+        class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none"
+      >
+        <div class="text-sm uppercase mb-4">Certificates</div>
+        <div class="text-black dark:text-white font-semibold">
+          List of Certificates
+        </div>
+        <div class="text-sm font-semibold">
+          Click on the certificate to view it
+        </div>
+        <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+          {
+            Certificates.map((certificate) => (
+              <CertificateComponent
+                title={certificate.title}
+                url={certificate.url}
+                logo={certificate.logo}
+              />
+            ))
+          }
+        </ul>
+      </li>
     </ul>
   </BottomLayout>
 </PageLayout>

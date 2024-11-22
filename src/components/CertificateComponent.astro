@@ -1,0 +1,33 @@
+---
+import { Image } from "astro:assets";
+
+interface Props {
+  title: string;
+  url: string;
+  logo: string;
+}
+
+const { title, url, logo } = Astro.props;
+---
+
+<li class="list-none">
+  <a
+    href={url}
+    target="_blank"
+    class="decoration-transparent group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend"
+  >
+    <Image
+      src={logo}
+      class="size-4"
+      alt="Certificate Logo"
+      width={32}
+      height={32}
+    />
+    <span
+      class="text-current group-hover:text-black group-hover:dark:text-white blend"
+      style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+    >
+      {title}
+    </span>
+  </a>
+</li>
