@@ -1,27 +1,26 @@
 ---
 title: "Terms of Use"
-date: "03/07/2024"
+date: "11/11/2024"
 ---
 
-Please read these Terms of Use ("Terms", "Terms of Use") carefully before using the [Your Website URL] website (the "Service") operated by [Your Company Name] ("us", "we", or "our").
+Welcome to my portfolio! 🎨✨ Please read these fun Terms of Use ("Terms", "Terms of Use") carefully before using the [https://castdev-j.pages.dev/] website (the "Service") operated by Andrés Castillo ("us", "we", or "our"). 🖥️💻
 
-#### Agreement to Terms
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+#### Agreement to Terms 💼🤝
+By visiting this site, you're agreeing to have fun 🎉, explore 🔍, and not steal my hard work (pretty please 🙏). If you’re here to enjoy my projects, you’re in the right place! 🌈
 
-#### Intellectual Property Rights
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+#### Intellectual Property Rights 🔒📚
+Everything on this site (yes, even the long nights of debugging 😅) belongs to me unless stated otherwise. If you'd like to use something, just ask nicely! 💌
 
-#### User Representations
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+#### User Representations 🎯👩‍💻
+Feel free to click around, learn, and get inspired 🌟. Just don’t break the site, okay? 🛠️ I’ve spent countless hours building it, and I’d rather keep it drama-free. 🕊️
 
-#### Links to Other Websites
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+#### Links to Other Websites 🌐🔗
+If I’ve included any links, it’s because they’re cool 😎 or useful 💡. I’m not responsible for what happens if you click them, though – proceed with curiosity! 🧭✨
 
-#### Termination
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+#### Termination 🚪👋
+If this site isn’t your vibe, you can leave anytime (no hard feelings 🤷). But hey, I hope you stay! 🫶
 
-#### Governing Law
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+#### Changes to These Terms of Use 🔄📜
+As I evolve (and so does my code 🧑‍💻), these terms might change. If anything big happens, I’ll make sure it’s noticeable. 🛎️
 
-#### Changes to These Terms of Use
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+Enjoy the site! 🎈🌟
