@@ -1,6 +1,6 @@
 ---
-title: "User Authentication with Google, GitHub, and Custom Users"
-summary: "User authentication application using Firebase, Google Sign-In, GitHub Sign-In, and custom user accounts with route protection and a pastel color design."
+title: "Timely"
+summary: "Timely is a practical tool for students who want to organize their schedules in a personalized and secure way. This project is a practice page that uses modern technologies such as Astro, Firebase, React, and more."
 date: "Dec 12 2024"
 draft: false
 tags:
