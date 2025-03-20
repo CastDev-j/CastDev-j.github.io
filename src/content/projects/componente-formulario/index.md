@@ -2,7 +2,7 @@
 title: "Pastel Colors Form"
 summary: "Example of a login form with validation and pastel color design."
 date: "Jan 15 2024"
-draft: false
+draft: true
 tags:
 - HTML
 - CSS

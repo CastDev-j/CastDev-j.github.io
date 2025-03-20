@@ -2,7 +2,7 @@
 title: "Weekly Expenses Chart"
 summary: "Weekly expenses chart with responsive design and dynamic highlighting."
 date: "Mar 15 2024"
-draft: false
+draft: true
 tags:
 - HTML
 - CSS

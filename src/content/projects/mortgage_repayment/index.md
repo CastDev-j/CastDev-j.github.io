@@ -2,7 +2,7 @@
 title: "Mortgage Repayment Calculator"
 summary: "Calculator to estimate mortgage payments, easy to use and customize."
 date: "Feb 05 2024"
-draft: false
+draft: true
 tags:
 - HTML
 - CSS

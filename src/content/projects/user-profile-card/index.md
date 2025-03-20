@@ -2,7 +2,7 @@
 title: "User Profile Card"
 summary: "Simple user profile with a modern and minimalist design."
 date: "Feb 20 2024"
-draft: false
+draft: true
 tags:
 - HTML
 - CSS

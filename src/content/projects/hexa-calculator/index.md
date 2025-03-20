@@ -2,7 +2,7 @@
 title: "Hexadecimal Calculator"
 summary: "Calculator for performing basic operations with hexadecimal numbers."
 date: "Oct 02 2023"
-draft: false
+draft: true
 tags:
 - HTML
 - CSS

@@ -2,7 +2,7 @@
 title: "Chemical Molecular Structure"
 summary: "Interactive page to present molecular geometry using 3Dmol."
 date: "Nov 18 2023"
-draft: false
+draft: true
 tags:
 - HTML
 - CSS

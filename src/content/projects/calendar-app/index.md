@@ -2,7 +2,7 @@
 title: "Collaborative Calendar App"
 summary: "A web application for task and event management with shared access features."
 date: "Jan 06 2025"
-draft: false
+draft: true
 tags:
   - HTML
   - CSS

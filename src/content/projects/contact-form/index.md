@@ -2,7 +2,7 @@
 title: "Contact Form"
 summary: "Form with field validation and email functionality."
 date: "Feb 25 2024"
-draft: false
+draft: true
 tags:
 - HTML
 - CSS
