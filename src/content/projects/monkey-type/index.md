@@ -2,7 +2,7 @@
 title: "MokeyType"
 summary: "MonkeyType clone developed with basic web technologies."
 date: "Nov 03 2024"
-draft: false
+draft: true
 tags:
 - HTML
 - CSS
