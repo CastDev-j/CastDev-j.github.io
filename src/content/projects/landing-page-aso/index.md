@@ -20,7 +20,7 @@ demoUrl: https://preview-vmgs.netlify.app/
 
 ### Technologies used
 
-- **React**: Component-based architecture for UI development.
+- **React**: Basic components used to practice and enhance React development skills.
 - **Astro**: Fast and optimized static site generation.
 - **Tailwind CSS**: Utility-first styling for rapid development.
 - **TypeScript**: Strongly typed JavaScript for better maintainability.
