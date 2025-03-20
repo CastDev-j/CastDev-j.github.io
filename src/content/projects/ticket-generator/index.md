@@ -16,7 +16,7 @@ repoUrl: "https://github.com/CastDev-j/ticket-generator"
 ---
 
 ### About the project  
-This project is a ticket generator application designed with a clean and modern UI. It allows users to create and manage tickets efficiently using a minimalist approach. Built with Astro and React, it ensures fast performance and easy scalability.
+**Ticket Generator** is a simple application designed to create and manage tickets efficiently with a clean and responsive UI.
 
 ### Features  
 - **Generate tickets**: Quickly create custom tickets.  
