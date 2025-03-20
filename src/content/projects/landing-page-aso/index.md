@@ -1,7 +1,7 @@
 ---
 title: "Viviendo Migransueño"
 summary: "Landing page for an association dedicated to supporting migrants and their dreams."
-date: "FEB 16 2025"
+date: "Mar 16 2025"
 draft: false
 tags:
   - HTML
