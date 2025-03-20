@@ -1,7 +1,7 @@
 ---
 title: "Ticket Generator"
 summary: "A simple and efficient ticket generator with a modern and minimalist design."
-date: "Feb 02 2025"
+date: "Mar 12 2025"
 draft: false
 tags:
 - React
