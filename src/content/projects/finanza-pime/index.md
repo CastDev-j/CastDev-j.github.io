@@ -11,7 +11,6 @@ tags:
   - Zod
   - Shadcn UI
 demoUrl: https://negocio-prueba.vercel.app/
-repoUrl: https://github.com/CastDev-j/negocio-prueba
 ---
 
 ### About the project
