@@ -2,7 +2,7 @@
 title: "PP Maps"
 summary: "An interactive map application built with modern web technologies."
 date: "Mar 25 2025"
-draft: false
+draft: true
 tags:
   - React
   - Tailwind CSS
